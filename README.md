@@ -21,7 +21,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 1. **Instale e inicie o MySQL** se ainda não estiver em execução.
 
-2. **Crie um banco de dados** chamado `TaskApiDb`.
+2. **Crie um banco de dados** exemplo `TaskApiDb`.
 
 3. **Atualize a string de conexão** no arquivo `appsettings.Development.json`:
 
@@ -29,6 +29,23 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    "ConnectionStrings": {
        "DefaultConnection": "Server=localhost;Database=TaskApiDb;User=SeuUser;Password=SuaSenha;"
    }
+   
+### Passo 3: Restaurar Pacotes e Executar Migrações
 
+1. **Restaurar pacotes**:
 
+   ```bash
+   dotnet restore
+   
+2. **Executar migrações**:
 
+   ```bash
+   dotnet ef database update
+   
+### Passo 4: Executar a API
+
+1. **Inicie a API**:
+
+   ```bash
+   dotnet run
+2.**Acesse a API em http://localhost:5000/api/Pessoas.**
