@@ -63,11 +63,11 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 1. **Navegue para o diretório do frontend**:
 
    ```bash
-   cd TaskAPI/frontend
+   cd frontend
 2. **Inicie a aplicação Electron**:
 
    ```bash
-   cd npm star
+   npm install
    
 3. **Inicie a aplicação Electron**:
 
