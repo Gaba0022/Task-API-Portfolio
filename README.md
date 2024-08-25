@@ -21,12 +21,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 2. **Crie um banco de dados** exemplo `TaskApiDb`.
 
-3. **Atualize a string de conexão** no arquivo `appsettings.Development.json`:
 
-   ```json
-   "ConnectionStrings": {
-       "DefaultConnection": "Server=localhost;Database=TaskApiDb;User=SeuUser;Password=SuaSenha;"
-   }
    
 ### Passo 2: Restaurar Pacotes e Executar Migrações
 
@@ -47,7 +42,18 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    ```bash
    dotnet ef database update
    
-### Passo 3: Executar a API
+4. **Caso tenha problemas com o comando verificar se o dotnet-ef Está Instalado. Você pode instalar ou atualizar a ferramenta com o seguinte comando**:
+   ```bash
+      dotnet tool install --global dotnet-ef
+
+### Passo 3: Atualize a string de conexão** no arquivo `appsettings.Development.json`
+
+      ```json
+      "ConnectionStrings": {
+          "DefaultConnection": "Server=localhost;Database=TaskApiDb;User=SeuUser;Password=SuaSenha;"
+      }
+      
+### Passo 4: Executar a API
 
 1. **Inicie a API**:
 
