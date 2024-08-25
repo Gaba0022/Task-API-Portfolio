@@ -34,8 +34,15 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
    ```bash
    dotnet restore
+
+2. **Adicionar o Pacote Necessários**:
+
+   ```bash
+   dotnet add package Microsoft.EntityFrameworkCore.Design
+   dotnet add package Pomelo.EntityFrameworkCore.MySql
+
    
-2. **Executar migrações**:
+3. **Executar migrações**:
 
    ```bash
    dotnet ef database update
