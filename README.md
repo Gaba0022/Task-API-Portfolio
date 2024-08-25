@@ -51,7 +51,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 ## Configuração do FrontEnd
 
-###Configurações:
+### Configurações:
 
 1. **Navegue para o diretório do frontend**:
 
@@ -67,4 +67,4 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    ```bash
    npm start
    
-###A interface do Electron estará disponível e deve ser acessível na janela do aplicativo.
+### A interface do Electron estará disponível e deve ser acessível na janela do aplicativo.
