@@ -42,9 +42,9 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    ```bash
    dotnet ef database update
    
-4. **Caso tenha problemas com o comando verificar se o dotnet-ef Está Instalado. Você pode instalar ou atualizar a ferramenta com o seguinte comando**:
+4. **Caso tenha problemas com o comando verificar se o dotnet-ef está Instalado. Você pode instalar ou atualizar a ferramenta com o seguinte comando**:
    ```bash
-      dotnet tool install --global dotnet-ef
+   dotnet tool install --global dotnet-ef
 
 ### Passo 3: Atualize a string de conexão** no arquivo `appsettings.Development.json`
 
