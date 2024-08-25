@@ -15,9 +15,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 ## Configuração do Backend
 
-### Passo 1: Clonar o Repositório
-
-### Passo 2: Configurar o Banco de Dados
+### Passo 1: Configurar o Banco de Dados
 
 1. **Instale e inicie o MySQL** se ainda não estiver em execução.
 
@@ -30,7 +28,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
        "DefaultConnection": "Server=localhost;Database=TaskApiDb;User=SeuUser;Password=SuaSenha;"
    }
    
-### Passo 3: Restaurar Pacotes e Executar Migrações
+### Passo 2: Restaurar Pacotes e Executar Migrações
 
 1. **Restaurar pacotes**:
 
@@ -42,10 +40,28 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    ```bash
    dotnet ef database update
    
-### Passo 4: Executar a API
+### Passo 3: Executar a API
 
 1. **Inicie a API**:
 
    ```bash
    dotnet run
+   
 2.**Acesse a API em http://localhost:5000/api/Pessoas.**
+
+## Configuração do FrontEnd
+
+1. **Navegue para o diretório do frontend**:
+
+   ```bash
+   cd TaskAPI/frontend
+
+2.**Instale as dependências**:
+
+   ```bash
+   npm install
+
+2.**Inicie a aplicação Electron**:
+
+   ```bash
+   cd npm start
