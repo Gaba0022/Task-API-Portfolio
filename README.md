@@ -83,3 +83,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 - **src/renderer.js**: Script que lida com a interação com a API e manipulação do DOM.
 - **src/index.html**: Estrutura da interface do usuário.
 - **src/styles.css**: Estilos para a interface do usuário.
+
+## Licença
+
+Este projeto não possui uma licença especificada. Sinta-se à vontade para modificar e usar conforme necessário.
