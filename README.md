@@ -69,7 +69,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    
 ### A interface do Electron estará disponível e deve ser acessível na janela do aplicativo.
 
-**Arquivos Importantes**
+## Arquivos Importantes
 
 **Backend**:
 
