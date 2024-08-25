@@ -12,7 +12,9 @@ obj/
 .vs/
 
 # ASP.NET Core
+appsettings*.json
 logs/
+secrets.json
 
 
 # Node.js
