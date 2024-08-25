@@ -6,7 +6,7 @@ fetchPessoasButton.addEventListener('click', async () => {
         const response = await fetch('http://localhost:5000/api/Pessoas');
         if (response.ok) {
             const pessoas = await response.json();
-            console.log('Dados recebidos:', pessoas); // Verifique os dados recebidos no console
+            console.log('Dados recebidos:', pessoas); 
 
             if (Array.isArray(pessoas)) {
                 pessoasList.innerHTML = pessoas.map(pessoa => 
@@ -19,7 +19,7 @@ fetchPessoasButton.addEventListener('click', async () => {
             pessoasList.innerHTML = '<li>Erro ao buscar dados</li>';
         }
     } catch (error) {
-        console.error('Erro:', error); // Adicione esta linha para ver erros no console
+        console.error('Erro:', error); 
         pessoasList.innerHTML = '<li>Erro ao buscar dados</li>';
     }
 });
