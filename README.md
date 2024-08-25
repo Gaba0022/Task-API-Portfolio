@@ -55,13 +55,12 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
    ```bash
    cd TaskAPI/frontend
-
-2.**Instale as dependências**:
-
-   ```bash
-   npm install
-
-2.**Inicie a aplicação Electron**:
+2. **Inicie a aplicação Electron**:
 
    ```bash
-   cd npm start
+   cd npm star
+   
+3. **Inicie a aplicação Electron**:
+
+   ```bash
+   npm start
