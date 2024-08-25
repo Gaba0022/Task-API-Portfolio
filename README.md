@@ -46,7 +46,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
    ```bash
    dotnet tool install --global dotnet-ef
 
-### Passo 3: Atualize a string de conexão** no arquivo `appsettings.Development.json`
+### Passo 3: Atualize a string de conexão no arquivo `appsettings.Development.json`
 
       ```json
       "ConnectionStrings": {
