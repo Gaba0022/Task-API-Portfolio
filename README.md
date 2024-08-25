@@ -88,7 +88,7 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 - **Controllers/PessoasController.cs**: Controlador da API para gerenciar dados de pessoas.
 - **Models/Pessoa.cs**: Modelo de dados da pessoa.
-- **Startup.cs**: Configuração do ASP.NET Core.
+- **Program.cs**: Configuração do ASP.NET Core.
 
 ### Frontend:
 
