@@ -73,13 +73,13 @@ Este projeto é um exemplo de aplicação que utiliza uma API REST com um backen
 
 **Backend**:
 
-- Controllers/PessoasController.cs: Controlador da API para gerenciar dados de pessoas.
-- Models/Pessoa.cs: Modelo de dados da pessoa.
-- Startup.cs: Configuração do ASP.NET Core.
+- **Controllers/PessoasController.cs**: Controlador da API para gerenciar dados de pessoas.
+- **Models/Pessoa.cs**: Modelo de dados da pessoa.
+- **Startup.cs**: Configuração do ASP.NET Core.
 
 **Frontend**:
 
-- src/main.js: Script principal do Electron que cria a janela da aplicação.
-- src/renderer.js: Script que lida com a interação com a API e manipulação do DOM.
-- src/index.html: Estrutura da interface do usuário.
-- src/styles.css: Estilos para a interface do usuário.
+- **src/main.js**: Script principal do Electron que cria a janela da aplicação.
+- **src/renderer.js**: Script que lida com a interação com a API e manipulação do DOM.
+- **src/index.html**: Estrutura da interface do usuário.
+- **src/styles.css**: Estilos para a interface do usuário.
